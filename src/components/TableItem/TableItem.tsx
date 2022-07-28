@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './TableItem.module.css'
 import { Item } from '../../types/Item'
-import { formtDate } from '../../helpers/dataFilter'
+import { formatDate } from '../../helpers/dataFilter'
 import { categories } from '../../data/categories'
 
 
@@ -12,7 +12,7 @@ type Props = {
 const TableItem = ({ item }: Props) => {
   return (
     <tr className={ styles.tr }>
-      <td>{ formtDate( item.date ) }</td>
+      <td>{ formatDate( item.date ) }</td>
       <td>
         <div
           style={{ background: `${categories[ item.category ].color}`}}

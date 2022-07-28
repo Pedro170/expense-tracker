@@ -1,8 +1,8 @@
 .form {
+  flex: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 1rem;
   width: 100%;
   border-radius: .5rem;
   background: #fff;
@@ -13,17 +13,57 @@
 
 .button {
   border-radius: .2rem;
-  border: none;
+  border: solid 1px transparent;
   background: #ddd;
   font-size: 1rem;
   font-weight: 600;
   color: var( --color );
-  padding: .4em 1rem;
-  margin-top: 20px;
+  padding: .31em 1rem;
+  margin-top: 21.3px;
   transition: .2s;
   cursor: pointer;
+}
+
+.button:focus,
+.button:hover {
+  border-color: #0A0C21;
+  box-shadow:
+    0 0 0 2px #adb2e9,
+    0 0 0 3px #0A0C21
+  ;
+}
+
+.form label {
+  display: block;
+  font-size: .875rem;
+  font-weight: bold;
+  color: var( --bg );
+}
+
+.form input:nth-child(2) {
+  margin-left: .1rem;
+}
+
+.form select {
+  width: 100%;
+  border-radius: .2rem;
+  border: solid 1px var( --color );
+  font-size: 1rem;
+  padding: .3rem;
+  outline: none;
+}
+
+.form select:focus,
+.form select:hover {
+  border-color: #0A0C21;
+  background: #fff;
+  box-shadow:
+    0 0 0 2px #adb2e9,
+    0 0 0 3px #0A0C21
+  ;
 }
 
 .button:hover {
   color: var( --bg );
 }
+

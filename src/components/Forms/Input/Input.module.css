@@ -13,3 +13,17 @@
   padding: .3rem;
   outline: none;
 }
+
+.input[type="date"] {
+  padding: .2rem .3rem;
+}
+
+.input:focus,
+.input:hover {
+  border-color: #0A0C21;
+  background: #fff;
+  box-shadow:
+    0 0 0 2px #adb2e9,
+    0 0 0 3px #0A0C21
+  ;
+}

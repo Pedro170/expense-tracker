@@ -54,7 +54,7 @@ const Infor = ({ currentMonth, income, expense, onManthChange }: Props) => {
         <div className={ styles.rdb }>
           <p>Balanço</p>
           <span style={{color: `${(income - expense < 0) ? '#f00' : '#0f0'}`}}>
-            R$ { (income - expense).toFixed(2) }
+            R$ { (income - expense) }
           </span>
         </div>
       </div>
