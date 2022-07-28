@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border-radius: .5rem;
+  background: #fff;
+  box-shadow: 0px 3px 11px 1px var( --type-first );
+  text-align: left;
+  padding: .5rem;
+}
+
+.table thead tr th {
+  color: var( --bg );
+  padding: .2rem .5rem;
+}
+
+.table thead tr th:nth-child(1) {
+  width: 15%;
+  border-top-left-radius: .2rem;
+  border-bottom-left-radius: .2rem;
+}
+
+.table thead tr th:nth-child(2) {
+  width: 25%;
+}
+.table thead tr th:nth-child(4) {
+  width: 15%;
+  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+}
+

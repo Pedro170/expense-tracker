@@ -1,0 +1,15 @@
+.label span {
+  display: block;
+  font-size: .875rem;
+  font-weight: bold;
+  color: var( --bg );
+}
+
+.input {
+  width: 100%;
+  border-radius: .2rem;
+  border: solid 1px var( --color );
+  font-size: 1rem;
+  padding: .3rem;
+  outline: none;
+}

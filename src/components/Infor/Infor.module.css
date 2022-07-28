@@ -1,0 +1,57 @@
+.infor {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  width: 100%;
+  border-radius: .5rem;
+  background: #fff;
+  box-shadow: 0px 3px 8px 1px var( --type-first );
+  text-align: left;
+  margin-top: -3rem;
+  padding: 1rem 2rem;
+}
+
+.month {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.month button:focus i,
+.month button:hover i {
+  color: var( --type-second );
+  outline: none;
+}
+
+.resume {
+  flex: 2;
+  display: flex;
+  width: 100%;
+}
+
+.resume .rdb {
+  flex: 1;
+  text-align: center;
+}
+
+.resume p {
+  font-size: .875rem;
+  font-weight: bold;
+  color: var( --color );
+}
+
+.resume span {
+  font-weight: bold;
+}

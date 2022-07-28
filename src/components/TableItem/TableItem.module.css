@@ -1,0 +1,12 @@
+.tr td {
+  color: var( --color );
+  padding: .2rem .5rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.background {
+  display: inline-block;
+  padding: .4rem 1rem;
+  border-radius: .3rem;
+  color: #fff;
+}
